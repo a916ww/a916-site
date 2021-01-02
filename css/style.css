@@ -1,0 +1,111 @@
+body{
+    font:15px/1.5 "M PLUS Rounded 1c", Helvetica, Arial, sans-serif;
+    padding:0;
+    margin:0;
+    background-color:#f4f4f4;
+}
+
+/* Global */
+.container{
+    width:100%;
+    margin:auto;
+    overflow:hidden;
+}
+
+/* Header */
+header{
+    background:#35424a;
+    color:#ffffff;
+    padding-top:30px;
+    min-height:70px;
+    border-bottom:#e8491d 3px solid;
+}
+
+header a{
+    color:#ffffff;
+    text-decoration:none;
+    font-size:16px;
+}
+
+header ul{
+    margin:0;
+    padding:0;
+}
+
+header li{
+    float:left;
+    display:inline;
+    padding:0 20px 0 20px;
+}
+
+header #branding{
+    float:left;
+}
+
+header #branding h1{
+    margin:0;
+}
+
+header #socmedia{
+    float:right;
+    margin-top:10px;
+}
+
+/* Navigation sidebar */
+.navi{
+    background:#114;
+    position:fixed;
+    height:100%;
+    overflow:auto;
+}
+
+.navi a{
+    color:#eee;
+    text-decoration:none;
+    font-size:16px;
+}
+
+.navi a:hover{
+    color:#C00;
+}
+
+.navi ul{
+    margin:0;
+    padding:0;
+}
+
+.navi li{
+    padding:0 20px 0 20px;
+}
+
+/* Boxes */
+#boxes{
+    margin-top:20px;
+}
+
+#boxes article{
+    float:left;
+    text-align:center;
+    width:100%;
+    padding:10px;
+}
+
+
+
+
+/* Responsive page shenanigans */
+@media screen and (max-width: 700px){
+    .navi{
+        width:100%;
+        height:auto;
+        position:relative;
+    }
+    .navi a{float:left;}
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
